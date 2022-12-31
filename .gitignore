@@ -1,0 +1,21 @@
+# exclude local configuration files
+*.local
+*.env
+
+# exclude compiled files
+*.o
+*.out
+*.exe
+
+# exclude dependencies
+node_modules/
+
+# exclude test results
+test-results/
+
+# exclude coverage reports
+coverage/
+
+# exclude build and dist folders
+build/
+dist/
