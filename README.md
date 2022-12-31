@@ -1,7 +1,9 @@
 # @calpa/utils
+
 This package is a collection of utilities that perform various tasks. It is written in TypeScript and tested with Jest and fast-check.
 
 ## Installation
+
 To install the package, run the following command:
 
 ```bash
@@ -9,16 +11,18 @@ npm install @calpa/utils
 ```
 
 ## Usage
+
 To use the package, import the utilities you need into your TypeScript code:
 
 ```ts
-import { reverseString } from '@calpa/utils';
+import { reverseString } from "@calpa/utils";
 
-let reversed = reverseString('hello');
+let reversed = reverseString("hello");
 console.log(reversed); // 'olleh'
 ```
 
 ## Testing
+
 To run the tests, use the following command:
 
 ```bash
@@ -37,4 +41,5 @@ If you want to contribute to the package, please follow these guidelines:
 1. Submit a pull request for review.
 
 ## License
+
 This package is licensed under the MIT License. See the LICENSE file for details.
