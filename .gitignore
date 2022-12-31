@@ -19,3 +19,4 @@ coverage/
 # exclude build and dist folders
 build/
 dist/
+.parcel-cache/

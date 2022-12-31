@@ -1,9 +1,11 @@
 {
   "compilerOptions": {
-    "target": "es2017",
-    "types": ["jest"],
-    "allowJs": true,
-    "skipLibCheck": true,
+    "target": "ES6",
+    "types": [
+      "jest"
+    ],
+    "allowJs": false,
+    "skipLibCheck": false,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "strict": true,
@@ -17,5 +19,7 @@
     "outDir": "./dist"
   },
   "compileOnSave": true,
-  "include": ["."]
+  "include": [
+    "."
+  ]
 }
